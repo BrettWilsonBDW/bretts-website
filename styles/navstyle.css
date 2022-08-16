@@ -9,7 +9,7 @@
 
 header {
     font-size: 12px;
-    background: #1A2434;
+    background: #1c2e5a;
     /* position: fixed; */
     position: fixed;
     top: 0;
@@ -35,7 +35,7 @@ header {
     top: 0;
     left: 0;
     width: 100vw;
-    background-color: #101620;
+    background-color: #09112a;
     height: 140px;
 }
 
@@ -43,7 +43,7 @@ header {
 .menu {
     width: 80vw;
     height: 60px;
-    background-color: #1A2434;
+    background-color: #1c2e5a;
     margin-left: 22vw;
     margin-top: 60px;
     clip-path: polygon(3% 0, 100% 0%, 100% 100%, 0% 100%);
@@ -52,7 +52,7 @@ header {
 .bottom {
     width: 100vw;
     height: 20px;
-    background-color: #1A2434;
+    background-color: #1c2e5a;
 }
 
 
@@ -111,7 +111,7 @@ header {
   width: 100%;
   text-align:center;
   padding-top: 8px;
-  background-color: #1A2434;
+  background-color: #1c2e5a;
   /* clip-path: polygon(0 0, 100% 0, 89% 100%, 11% 100%); */
   clip-path: polygon(10% 0, 100% 0, 88% 100%, 1% 100%);
 
@@ -135,7 +135,7 @@ header {
 }
 
 .nav li a:hover{
-  background-color: #101620;
+  background-color: #09112a;
   transition: 0.3s ease;
 }
 
