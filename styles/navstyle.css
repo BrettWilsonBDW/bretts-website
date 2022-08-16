@@ -10,7 +10,8 @@
 header {
     font-size: 12px;
     background: #1A2434;
-    position: fixed;
+    /* position: fixed; */
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 100;
@@ -29,7 +30,10 @@ header {
 }
 
 .nav-bar {
-    position: fixed;
+    position: absolute;
+    /* position:fixed; */
+    top: 0;
+    left: 0;
     width: 100vw;
     background-color: #101620;
     height: 140px;
@@ -206,11 +210,14 @@ textarea {
 }
 
 .logo-socials {
-    position: fixed;
+    /* position: fixed; */
+    position: absolute;
     display: flex;
 }
 
 #webname {
+    display: flex;
+    flex-wrap: wrap;
     width: 250px;
     margin-left: 20px;
     /* text-align: center; */
@@ -221,6 +228,11 @@ textarea {
     /* margin-top: 22px; */
     font-size: 16px;
     letter-spacing: 0.2px;
+}
+
+h1 {
+    margin-top: 650px;
+
 }
 
 /* stop removing the above code for crying out loud */
