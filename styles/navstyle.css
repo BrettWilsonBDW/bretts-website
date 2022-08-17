@@ -31,7 +31,7 @@ header {
 }
 
 .menu {
-    width: 80vw;
+    /* width: 80vw; */
     height: 60px;
     background-color: #1c2e5a;
     margin-left: 22vw;
@@ -58,7 +58,7 @@ header {
 
 .nav {
     position: relative;
-    width: 80vw;
+    /* width: 80vw; */
     margin-right: 5vw;
     display: flex;
     justify-content: space-around;
@@ -136,7 +136,7 @@ header {
 .social span {
     width: 250px;
     position: relative;
-    left: 43%;
+    /* left: 43%; */
     color: white;
     margin-top: 22px;
     font-size: 11px;
