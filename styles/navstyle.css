@@ -122,11 +122,10 @@ header {
   padding-left: 2vw;
 }
 
-#lastbar{ /* lastbar */
+/* #lastbar{
     height: 100%;
-    /* clip-path: polygon(0 0, 100% 0, 89% 100%, 11% 96%); */
     clip-path: polygon(10% 0, 100% 0, 90% 100%, 1% 96%);
-}
+} */
 
 .nav li:hover::before,
 .nav li:focus::before{
