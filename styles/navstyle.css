@@ -235,13 +235,13 @@ textarea {
     letter-spacing: 0.2px;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 400px) {
     .logo img { 
         visibility: hidden
     }
   }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 400px) {
     #webname { 
         margin-left: -30px;
     }
