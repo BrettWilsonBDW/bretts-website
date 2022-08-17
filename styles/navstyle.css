@@ -73,6 +73,7 @@ header {
     line-height: 5vh;
     margin-top: -106px;
     /* margin-top: -5vw; */
+    font-size: 12px;
 }
 
 #firstbutton{ /* firstbutton */
