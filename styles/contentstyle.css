@@ -10,7 +10,7 @@
     padding: 5%;
 }
 
-.mainbody {
+html {
     background: url("../images/spaceground.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
