@@ -4,4 +4,4 @@ my personal dev blog site
 
 under construction been very busy.
 
-vist here https://www.brettdwilson.com
+visit here https://www.brettdwilson.com
