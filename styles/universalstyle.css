@@ -42,8 +42,13 @@
 
 .card {
     display: flex;
-    width: 600px;
-    height: 450px;
+    /* width: 600px;
+    height: 450px; */
+    /* width: 45vw; */
+    height: 25vh;
+    /* max-width: 100%; */
+    width: 50%;
+    /* height: 50%; */
     border: 5px solid #09112a;
     border-radius: 8px;
     background-color: #1c2e5a;
