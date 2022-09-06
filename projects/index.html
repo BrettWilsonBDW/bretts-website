@@ -7,8 +7,47 @@
     <meta http-equiv="refresh" content="0; URL=https://dev.brettdwilson.com/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brett David Wilson's Projects</title>
+    <style>
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #3498db;
+            width: 170px;
+            height: 170px;
+            -webkit-animation: spin 1s linear infinite; /* Safari */
+            animation: spin 1s linear infinite;
+        }
+
+        .center-screen {
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        
+        /* Safari */
+        @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        </style>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script>
+        $(document).ready(function() {
+        $('.projectsRedirect').hide().delay(3000).fadeIn(2200);
+        });
+        </script>
+
 </head>
 <body>
-    <p>Thats funny you still here. If you are not yet redirected Please use, <br><a href="https://dev.brettdwilson.com/">dev.brettdwilson.com</a> to go to the the Projects page, thank you.</p>
-</body>
-</ht
+    <p class="projectsRedirect">Thats funny you still here. If you are not yet redirected Please use, <a href="https://dev.brettdwilson.com/">dev.brettdwilson.com</a> to go to the the Projects page, thank you.</p>
+    <div class="loader center-screen"></div>
