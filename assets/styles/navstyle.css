@@ -1,8 +1,6 @@
 /* credit to Dimitris Sioutis https://codepen.io/SioutisD/pen/YzaQNWv */
 
 
-
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,6 +10,7 @@
 header {
     font-size: 12px;
     background: #1c2e5a;
+    /* background: #006494; */
 }
 
 .logo-socials{
@@ -27,7 +26,8 @@ header {
 
 .nav-bar {
     width: 100%;
-    background-color: #09112a;
+    /* background-color: #09112a; */
+    background: #006494;
     /* height: 140px; */
     /* removing the bottom part */
     height: 120px;
@@ -35,7 +35,8 @@ header {
 
 .menu {
     height: 60px;
-    background-color: #1c2e5a;
+    /* background-color: #1c2e5a; */
+    background: #003554;
     /* margin-left: 22vw; */
     /* moving the menu more left */
     margin-left: 5vw;
@@ -43,12 +44,13 @@ header {
     clip-path: polygon(3% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
-.bottom {
+/* no longer in use */
+/* .bottom {
     width: 100vw;
     width: 100%;
     height: 20px;
     background-color: #1c2e5a;
-}
+} */
 
 .logo img {
     display: flex;
@@ -71,7 +73,7 @@ header {
     line-height: 40px;
     /* margin-top: -106px; */
     /* fix menu hight with out picture */
-    margin-top: -38.1px;
+    margin-top: -38.5px;
     font-size: 12px;
 }
 
@@ -114,7 +116,8 @@ header {
     width: 100%;
     text-align:center;
     padding-top: 8px;
-    background-color: #1c2e5a;
+    /* background-color: #1c2e5a; */
+    background: #003554;
     clip-path: polygon(10% 0, 100% 0, 88% 100%, 1% 100%);
   }
 
@@ -137,7 +140,8 @@ header {
 }
 
 .nav li a:hover{
-    background-color: #09112a;
+    /* background-color: #09112a; */
+    background: #006494;
     transition: 0.3s ease;
   }
 
