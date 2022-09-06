@@ -253,6 +253,24 @@ textarea {
 }
 
 
+/* .menu {
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav li a {
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%); 
+
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+
 /* .nav-bar {
     background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%); 
     background-attachment: fixed;
