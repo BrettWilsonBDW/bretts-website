@@ -21,32 +21,31 @@ html, body, footer {
 
     overflow: auto;
     overscroll-behavior: contain;
+
+    /* min-height: calc(100vh - 120px); */
+
 }
 
 body {
     margin: 0;
-    background-attachment:fixed;
-    min-height: 100%;
-  }
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
 
   
-/* .allButFooter {
-    min-height: calc(100vh - 40px);
-    min-height: calc(100vh - 95px); 
-} */
 
 
 footer {
-    position:fixed;
-
-    /* position: absolute; */
-    /* top:0; */
-    bottom: 0;
-    left: 0;
-    right: 0;
     text-align: center;
-    margin: auto;
+    height: 50px;
 }
 
-/* null null null */
-/* null null null */
+/* gygtyvgt */
+/* uhguigyugy */
+/* uhiughg */
