@@ -3,7 +3,6 @@
 }
 
 body {
-    /* font-family: sans-serif, Tahoma, Verdana; */
     font-family: 'Roboto', sans-serif, Tahoma; 
 }
 
@@ -14,31 +13,40 @@ p {
 
 
 html, body, footer {
-    /* background: url("../images/spaceground.png") no-repeat center center fixed;  */
-
-    /* credit https://gradients.shecodes.io/*/
-    /* background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);  */
-    /* background: linear-gradient(111.1deg, rgb(0, 40, 70) -4.8%, rgb(255, 115, 115) 82.7%, rgb(255, 175, 123) 97.2%);  */
-    /* background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);  */
-    /* background: linear-gradient(72.3deg, rgb(29, 7, 64) 8.5%, rgba(158, 46, 18, 0.562) 92.2%);  */
-    /* background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);  */
-    /* background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);  */
-    /* background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);  */
-    /* background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
-    margin: 0;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; */
-
     background: url("../images/pawel-czerwinski-abstractspace.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
+    overflow: auto;
+    overscroll-behavior: contain;
 }
 
+body {
+    margin: 0;
+    background-attachment:fixed;
+    min-height: 100%;
+  }
 
-/* ujhhgb */
-/* guhuhguhughi */
+  
+/* .allButFooter {
+    min-height: calc(100vh - 40px);
+    min-height: calc(100vh - 95px); 
+} */
+
+
+footer {
+    position:fixed;
+
+    /* position: absolute; */
+    /* top:0; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+
+/* null null null */
+/* null null null */
