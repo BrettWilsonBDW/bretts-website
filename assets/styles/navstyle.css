@@ -73,7 +73,8 @@ header {
     line-height: 40px;
     /* margin-top: -106px; */
     /* fix menu hight with out picture */
-    margin-top: -38.5px;
+/*     margin-top: -38.5px; */
+    margin-top: -40px; 
     font-size: 12px;
 }
 
