@@ -107,7 +107,7 @@ header {
     width:100%;
     background-color:rgb(204, 41, 0);
     transform: scaleX(0);
-      transition: transform 200ms ease-in-out;
+        transition: transform 200ms ease-in-out;
   }
 
   /* buttons */
@@ -128,7 +128,7 @@ header {
   #a-home{ 
     height: 100%;
     clip-path: polygon(10% 0, 100% 0%, 89% 96%, 0 100%);
-  padding-left: 2vw;
+    padding-left: 2vw;
 }
 
 /* use in case page buttons increase to be too long */
@@ -140,7 +140,7 @@ header {
 
 .nav li:hover::before,
 .nav li:focus::before{
-  transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 .nav li a:hover{
