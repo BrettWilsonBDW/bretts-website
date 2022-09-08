@@ -7,6 +7,8 @@
     max-width: 100%;
 }
 
+
+
 .grid { 
     margin: 5%;
     display: grid;
@@ -37,6 +39,11 @@
     padding: 10px;
     width: 100%;
 }
+
+.lastcard {
+    margin-bottom: 150px;
+}
+
 
 @media only screen and (max-width: 394px) {
     
@@ -71,6 +78,5 @@
 }
 
 
-
 /* ghahasghiaw */
-/* gzshughsui */
+/* gbhyhusghfuiwahguihasiughuih 
