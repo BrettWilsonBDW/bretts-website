@@ -3,6 +3,12 @@
     color: white;
 }
 
+.projectHeadings {
+    padding: 3px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 21px;
+}
 
 .card {
     height: 500px;
@@ -66,16 +72,6 @@
     width: 200px;
     margin-bottom: 5px;
     transition: 0.4s;
-}
-
-.projectCardLink:hover {
-    /* border: 4px solid transparent rgb(204, 41, 0); */
-    /* width: 201px; */
-    /* margin-bottom: 1px; */
-    /* padding: -2; */
-    /* margin: botoo; */
-    /* background-color:rgb(204, 41, 0); */
-    /* transition: 1.5s; */
 }
 
 .projectlink {
