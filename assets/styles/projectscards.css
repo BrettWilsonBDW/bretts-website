@@ -65,6 +65,7 @@
     margin-right: auto; 
     width: 200px;
     margin-bottom: 5px;
+    transition: 0.4s;
 }
 
 .projectCardLink:hover {
@@ -82,12 +83,12 @@
 }
 
 .projectCardLink:hover {
-
-    box-shadow: 0px 0px 0px 2px rgb(204, 41, 0);
+    box-shadow: 0px 0px 0px 1.5px rgb(204, 41, 0);
     border: 1px solid rgb(204, 41, 0);
-    transition: 0.6s;
-    
+    transition: 0.3s;
 }
+
+
 
 
 @media only screen and (max-width: 394px) {
