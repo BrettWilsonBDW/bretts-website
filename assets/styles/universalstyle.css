@@ -27,8 +27,9 @@ p {
 
 
 html, body, footer {
-    background: url("../images/pawel-czerwinski-abstractspace.jpg") no-repeat center center fixed; 
+    /* background: url("../images/pawel-czerwinski-abstractspace.jpg") no-repeat center center fixed;  */
     /* background: url("../images/spaceredblue.jpg") no-repeat center center fixed;  */
+    background: url("../images/pawel-czerwinski-abstractspace-compress.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
