@@ -1,10 +1,4 @@
-
-
-/* :root{
-    --colorPrincipal: #7DB4B5;
-    --colorSecundario: #680148;
-    --colorSombra: rgba(125, 180, 181, 0.2)
-} */
+/* https://codepen.io/mntcrl/pen/PoRzmeG */
 
 *{
     margin: 0;
@@ -12,17 +6,12 @@
     box-sizing: border-box;
 }
 
-/* body{
-    background-color: rgb(248, 248, 248);
-} */
-
 h1{
-    font-size: 48px;
+    font-size: 35px;
     text-align: center;
     text-transform: uppercase;
     padding: 25px 0;
-    letter-spacing: 2px;
-    /* color: var(--colorPrincipal); */
+    letter-spacing: 3px;
     color: #ffffff;
 }
 
@@ -40,14 +29,15 @@ h1{
     left: 50%;
     width: 2px;
     height: 100%;
-    background-color: #e4e4e4;
+    background-color: #ffffff;
 }
 
 .timeline ul li:hover .time{
-    transform: scale(1.1);
+    transform: scale(0.99);
+    box-shadow: 0 0 0 3px#cc2900;
+    transition: 0.3s;
 }
 
-/*Elementos de lista*/
 .timeline ul li{
     list-style: none;
     position: relative;
@@ -67,18 +57,16 @@ h1{
     clear: both;
 }
 
-/*Circulo indicador*/
 .timeline ul li::before{
     content: '';
     position: absolute;
     top: 30px;
     width: 10px;
     height: 10px;
-    /* background-color: var(--colorPrincipal); */
     background-color: #006494;
     border-radius: 50%;
-    /* box-shadow: 0 0 0 3px var(--colorSombra); */
     box-shadow: 0 0 0 3px#003554;
+    transition: 0.3s;
 }
 
 .timeline ul li:nth-child(odd)::before{
@@ -90,25 +78,27 @@ h1{
 }
 
 .timeline ul li:hover::before{
-    transform: scale(1.5);
+    transform: scale(1.2);
+    background-color: #006494;
+    box-shadow: 0 0 0 3px#cc2900;
+    transition: 0.3s;
+
 }
 
 .time{
     display: inline-block;
     font-weight: 400;
-    font-size: 14px;
-    padding: 5px 10px;
+    font-size: 18px;
+    padding: 4px 9px;
     margin-bottom: 15px;
-    background-color: #cc2900;
-    /* color: var(--colorSecondary); */
+    background-color: #006494;
     border-radius: 20px;
-    /* box-shadow: 0 0 0 3px #cc2900 */
+    transition: 0.3s;
 }
 
 h3{
     font-weight: 400;
 }
-
 
 .content{
     padding-bottom: 20px;
@@ -116,7 +106,6 @@ h3{
 
 .timeline ul li h2{
     font-weight: 500;
-    /* color: var(--colorPrincipal); */
     color: #ccc;
 }
 
@@ -131,9 +120,4 @@ h3{
     }
 }
 
-p {
-    /* width: auto; */
-    /* overflow-wrap: ; */
-}
-
-/*  ikghjmgghnjiksnjhjkns
+/* tfxdrxdrxt */
