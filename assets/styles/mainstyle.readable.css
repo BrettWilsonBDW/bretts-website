@@ -384,6 +384,14 @@ textarea {
     }
 }
 
+@media only screen and (max-width: 467px) {
+    .social {
+
+        position: relative;
+        left: 48vw;
+    }
+}
+
 @media only screen and (max-width: 321px) {
     .social {
         visibility: hidden;
@@ -436,6 +444,11 @@ body {
 footer {
     text-align: center;
     height: 50px;
+}
+
+
+.socialIcon{
+    margin: 4px;
 }
 
 /* end of file */
