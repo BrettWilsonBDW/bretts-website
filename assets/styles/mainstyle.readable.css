@@ -368,6 +368,22 @@ textarea {
     }
 }
 
+@media only screen and (max-width: 360px) {
+    .social {
+
+        position: relative;
+        left: 48vw;
+    }
+}
+
+@media only screen and (max-width: 364px) {
+    .social {
+
+        position: relative;
+        left: 48vw;
+    }
+}
+
 @media only screen and (max-width: 321px) {
     .social {
         visibility: hidden;
