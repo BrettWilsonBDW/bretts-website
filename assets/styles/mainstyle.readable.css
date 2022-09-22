@@ -207,7 +207,8 @@ header {
     display: flex;
     justify-content: space-around;
     line-height: 40px;
-    margin-top: -39px;
+    /* margin-top: -39px; */
+    margin-top: -45px;
     font-size: 12px;
 }
 
@@ -266,7 +267,7 @@ header {
 
 .social {
     display: flex;
-    transition: 0.4s;
+    /* transition: 0.4s; */
     position: relative;
     left: 79vw;
     flex-flow: row wrap;
@@ -277,6 +278,11 @@ header {
     margin-top: 22px;
     font-size: 11px;
 }
+
+.social > span:nth-child(1) {
+    margin-bottom: 12px;
+   }
+   
 
 .social ul {
     margin-top: 16px;
