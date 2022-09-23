@@ -36,11 +36,16 @@
 
     width: 80%;
 
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 
     font-size: 18px;
+
+    margin-bottom: -27px;
     
+    margin-top: -10px;
 }
+
+
 
 .mainArticle {
     margin: 0px auto;
@@ -59,6 +64,10 @@
 
     /* background: linear-gradient(109.6deg,#003554 11.2%,#006494 100.2%); */
 
+}
+
+.lastp {
+    margin-bottom: 10px;
 }
 
 
