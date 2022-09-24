@@ -107,12 +107,16 @@ h3{
 .timeline ul li h2{
     font-weight: 500;
     color: #ccc;
+    font-size: 1.3rem;
 }
 
 .timeline ul li p{
     margin: 10px 0;
     font-weight: 300;
+    font-size: 1.2rem;
 }
+
+
 
 @media only screen and (min-width: 1238px) {
     .timeline ul li p{
