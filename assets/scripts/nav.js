@@ -1,7 +1,5 @@
-// https://stackoverflow.com/questions/44502243/single-navigation-bar-across-website
-
-document.write('<div>\
-<body>\
+document.getElementById("navMain").innerHTML = ('<div>\
+<body> \
     <header>\
     <div class="nav-bar">\
         <div class="logo-socials">\
@@ -36,6 +34,6 @@ document.write('<div>\
 </header>\
 </body>\
     </div>\
-');
+')
 
 //   gkiasioghdfhfhfhhghgfgfg
