@@ -17,6 +17,12 @@
     background: linear-gradient(109.6deg, rgb(27, 27, 79) 11.2%, rgb(120, 201, 244) 100.2%); 
 }
 
+.card:hover {
+    box-shadow: 0 0 0 1.5px #cc2900;
+    border: 1px solid #cc2900;
+    transition: .3s;
+}
+
 
 
 .grid { 
