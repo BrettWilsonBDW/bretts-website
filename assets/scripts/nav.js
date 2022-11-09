@@ -36,4 +36,4 @@ document.getElementById("navMain").innerHTML = ('<div>\
     </div>\
 ')
 
-//   gkiasioghdfhfhfhhghgfgfg
+// shared nav bar across all pages using one line
