@@ -26,9 +26,9 @@ document.getElementById("navMain").innerHTML = ('<div>\
             <ul class="nav">\
             <li id="firstbutton"><a href="../index.html" id="a-home">Home</a></li>\
             <li><a href="../projects">Projects</a></li>\
-            <li><a href="../blogs">Dev Blogs</a></li>\
+            <!-- <li><a href="../blogs">Dev Blogs</a></li> -->\
             <li><a href="../timeline">Timeline</a></li>\
-            <li><a href="../Bretts-CV" id="lastbar">My CV</a></li>\
+            <li><a href="../BrettsCV" id="lastbar">My CV</a></li>\
             </ul>\
         </div>\
 </header>\
