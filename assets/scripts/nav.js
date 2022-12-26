@@ -8,8 +8,6 @@ document.getElementById("navMain").innerHTML = ('<div>\
             <div class="webnamediv">\
                 <span id="webname">Brett David Wilson</span>\
             </div>\
-            <!-- good icon website https://fontawesomeicons.com/svg/icons -->\
-            <!-- also https://icons.getbootstrap.com/icons/envelope-fill/ -->\
             <div class="social">\
                 <span>Find Me On</span>\
                 <ul>\
@@ -34,6 +32,7 @@ document.getElementById("navMain").innerHTML = ('<div>\
 </header>\
 </body>\
     </div>\
+<Credit to Dimitris Sioutis https://codepen.io/SioutisD/pen/YzaQNWv for inspiration -->\
 ')
-
-// shared nav bar across all pages using one line
+// Credit to Dimitris Sioutis https://codepen.io/SioutisD/pen/YzaQNWv for inspiration. -->
+// shared nav bar across all pages using two lines.
