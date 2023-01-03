@@ -26,7 +26,7 @@ document.getElementById("navMain").innerHTML = ('<div>\
             <li><a href="../projects">Projects</a></li>\
             <!-- <li><a href="../blogs">Dev Blogs</a></li> -->\
             <li><a href="../timeline">Timeline</a></li>\
-            <li><a href="../brettscv" id="lastbar">My CV</a></li>\
+            <li><a href="../brettscv" id="lastbar">Brett&apos;s CV</a></li>\
             </ul>\
         </div>\
 </header>\
