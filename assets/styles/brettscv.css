@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    word-wrap: break-word;
+}
+
 a:hover {
     text-decoration: underline;
     text-underline-offset: 1.5px;
