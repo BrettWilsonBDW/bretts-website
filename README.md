@@ -1,4 +1,4 @@
 # brettsblog
-my personal dev blog site
+my personal dev portfolio site
 
 visit here https://www.brettdwilson.com
