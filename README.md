@@ -1,4 +1,7 @@
-# brettsblog
-my personal dev portfolio site
+# Brett Wilson's personal website : 
+## https://www.brettdwilson.com/ ##
 
-visit here https://www.brettdwilson.com
+
+Built using standard html, css and javascript / jQuery.
+
+
